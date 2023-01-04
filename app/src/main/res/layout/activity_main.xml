@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hahah"
+    tools:context=".MainActivity">
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#9415120A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="309dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="40dp"
+        app:cardCornerRadius="30dp"
+
+        app:cardElevation="19dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/et_One"
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/stroke"
+            android:hint="Name"
+            android:padding="5dp" />
+
+        <EditText
+            android:id="@+id/et_Two"
+
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="16dp"
+
+            android:background="@drawable/stroke"
+            android:hint="Name"
+            android:padding="5dp"
+
+            />
+
+        <EditText
+            android:id="@+id/et_Three"
+
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="59dp"
+            android:background="@drawable/stroke"
+            android:hint="Name"
+            android:padding="5dp" />
+
+        <EditText
+            android:id="@+id/et_Four"
+
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="59dp"
+            android:background="@drawable/stroke"
+            android:hint="Name"
+            android:padding="5dp"
+
+            />
+
+        <EditText
+            android:id="@+id/et_Five"
+
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="107dp"
+            android:background="@drawable/stroke"
+            android:hint="Name"
+            android:padding="5dp" />
+
+    </androidx.cardview.widget.CardView>
+
+     <androidx.cardview.widget.CardView
+        android:layout_width="309dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="230dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="19dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        >
+
+        <TextView
+            android:id="@+id/txt_one"
+
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:padding="5dp"
+
+            android:background="@drawable/strokk"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="16dp"
+            />
+
+        <TextView
+            android:id="@+id/txt_two"
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:padding="5dp"
+            android:background="@drawable/strokk"
+
+
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="16dp"
+
+            />
+
+        <TextView
+            android:id="@+id/txt_three"
+
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+
+            android:padding="5dp"
+            android:background="@drawable/strokk"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="59dp"
+            />
+        <TextView
+            android:id="@+id/txt_four"
+
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+
+            android:padding="5dp"
+            android:background="@drawable/strokk"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="59dp"
+
+            />
+        <TextView
+            android:id="@+id/txt_five"
+
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+
+            android:padding="5dp"
+            android:background="@drawable/strokk"
+            android:layout_marginTop="107dp"
+            android:layout_gravity="center_horizontal"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="133dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="456dp"
+        android:text="Save"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_load"
+        android:layout_width="133dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="456dp"
+        android:text="Load"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.848"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
